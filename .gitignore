@@ -1,0 +1,14 @@
+# Windows reserved name
+nul
+
+# GitHub CLI credentials
+gh/hosts.yml
+
+# Scoop (managed by scoop, not config)
+scoop/
+
+# Claude local settings
+.claude/
+
+# Wezterm resurrect plugin (separate repo)
+resurrect.wezterm/
