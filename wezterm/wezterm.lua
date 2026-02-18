@@ -20,28 +20,28 @@ config = {
 	},
 	--font = wezterm.font("FiraCode Nerd Font Mono"),
 	font_size = 12.5,
-	background = {
-		{
-			source = {
-				File = "C:/Users/Brandon/Pictures/pexels-eberhardgross-691668.jpg",
-			},
-			hsb = {
-				hue = 1.0,
-				saturation = 1.02,
-				brightness = 0.25,
-			},
-			width = "100%",
-			height = "100%",
-		},
-		{
-			source = {
-				Color = "#282c35",
-			},
-			width = "100%",
-			height = "100%",
-			opacity = 0.8,
-		},
-	},
+	-- background = {
+	-- 	{
+	-- 		source = {
+	-- 			File = "C:/Users/Brandon/Pictures/pexels-eberhardgross-691668.jpg",
+	-- 		},
+	-- 		hsb = {
+	-- 			hue = 1.0,
+	-- 			saturation = 1.02,
+	-- 			brightness = 0.25,
+	-- 		},
+	-- 		width = "100%",
+	-- 		height = "100%",
+	-- 	},
+	-- 	{
+	-- 		source = {
+	-- 			Color = "#282c35",
+	-- 		},
+	-- 		width = "100%",
+	-- 		height = "100%",
+	-- 		opacity = 0.8,
+	-- 	},
+	-- },
 	window_padding = {
 		left = 3,
 		right = 3,
@@ -78,7 +78,7 @@ config = {
 }
 
 config.enable_tab_bar = true
-config.tab_bar_at_bottom = true
+config.tab_bar_at_bottom = false
 config.use_fancy_tab_bar = false
 config.tab_max_width = 50
 config.tab_and_split_indices_are_zero_based = false
